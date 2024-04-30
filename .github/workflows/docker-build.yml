@@ -42,6 +42,6 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: uda_training/python-helloworld:latest
+          tags: cissoidx/python-helloworld:latest
 
 # update
