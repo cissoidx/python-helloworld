@@ -32,7 +32,7 @@ jobs:
             name/app
             # ghcr.io/username/app            
           # generate Docker tags based on the following events/attributes
-          tags:
+          tags: |
             type=schedule
             type=ref,event=branch
             type=ref,event=pr
